@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "zz8fdwYtbvUt12d9VCJAfz65tSv07QjCzMVFkYHwgBc=",
+  "Source": "RetailStore",
+  "BasePath": "_content/RetailStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RetailStore\\wwwroot",
+      "Source": "RetailStore",
+      "ContentRoot": "E:\\MVC Project\\RetailStore\\wwwroot\\",
+      "BasePath": "_content/RetailStore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\MVC Project\\RetailStore\\wwwroot\\favicon.ico",
+      "SourceId": "RetailStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC Project\\RetailStore\\wwwroot\\",
+      "BasePath": "_content/RetailStore",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

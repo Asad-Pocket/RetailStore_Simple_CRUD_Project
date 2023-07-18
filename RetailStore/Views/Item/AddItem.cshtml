@@ -1,0 +1,33 @@
+﻿@model RetailStore.Models.Domain.Item
+@{
+    Layout = "_Layout";
+}
+<div class = "mt-2" style="width:50%">
+<form asp-action="AddItem">
+    <h2>Add Item</h2>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Quantity" class="form-label">Quantity</label>
+            <input asp-for="Quantity" type="number" class="form-control">
+            <span class="text-danger" asp-validation-for="Quantity"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">Price</label>
+        <input asp-for ="Price" type="number" class="form-control">
+            <span class="text-danger" asp-validation-for="Price"></span>
+    </div>
+
+    @if(TempData["msg"] != null)
+        {
+            <div class="mb-3">
+                @TempData["msg"]
+            </div>
+        }
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/Item/DisplayItems" class="btn btn-primary">Show All Items</a>
+</form>
+</div>
